@@ -1,6 +1,6 @@
 # Šarūnas Simanaitis — Portfolio
 
-A personal portfolio built with React, TypeScript, and Vite. The site presents selected projects, working approach, background, and contact details.
+A personal portfolio built with React, TypeScript, Vite, and Tailwind CSS v4. The site presents selected projects, working approach, background, and contact details.
 
 ## Run locally
 
