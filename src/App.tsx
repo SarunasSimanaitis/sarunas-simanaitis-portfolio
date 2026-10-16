@@ -40,7 +40,7 @@ export default function App() {
       <section id="top" className="hero section-wrap grid grid-cols-1 items-center gap-12 py-[4.2rem] lg:min-h-[680px] lg:grid-cols-[minmax(0,1.08fr)_minmax(360px,0.92fr)] lg:gap-[clamp(2.5rem,7vw,6.5rem)] lg:py-24 lg:pb-[6.2rem]" aria-labelledby="hero-title">
         <div className="hero-copy">
           <p className="eyebrow"><span className="eyebrow-index">01</span> Front-end developer <span className="eyebrow-dot">/</span> Rybnik, Poland</p>
-          <h1 className="mb-6 text-[clamp(3.55rem,14vw,5.3rem)] leading-[0.94] tracking-[-0.055em] md:text-[clamp(3.6rem,8vw,5.3rem)] lg:text-[clamp(3.8rem,7vw,6.35rem)]" id="hero-title">Made with care.<br /><em>Made better.</em></h1>
+          <h1 className="mb-6 text-[clamp(2.85rem,12vw,4rem)] tracking-[-0.055em] md:text-[clamp(3.45rem,5.6vw,5.3rem)]" id="hero-title">Made with care.<br /><em>Made better.</em></h1>
           <p className="hero-intro">
             I’m Šarūnas, a junior front-end developer who likes getting the details right. I build
             clear, responsive interfaces with React, TypeScript, and JavaScript—and keep refining
