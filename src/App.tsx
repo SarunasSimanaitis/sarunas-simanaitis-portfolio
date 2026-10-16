@@ -40,7 +40,7 @@ export default function App() {
       <section id="top" className="hero section-wrap grid grid-cols-1 items-center gap-12 py-[4.2rem] lg:min-h-[680px] lg:grid-cols-[minmax(0,1.08fr)_minmax(360px,0.92fr)] lg:gap-[clamp(2.5rem,7vw,6.5rem)] lg:py-24 lg:pb-[6.2rem]" aria-labelledby="hero-title">
         <div className="hero-copy">
           <p className="eyebrow"><span className="eyebrow-index">01</span> Front-end developer <span className="eyebrow-dot">/</span> Rybnik, Poland</p>
-          <h1 className="mb-6 font-serif text-[clamp(3.55rem,14vw,5.3rem)] font-normal leading-[0.94] tracking-[-0.055em] md:text-[clamp(3.6rem,8vw,5.3rem)] lg:text-[clamp(3.8rem,7vw,6.35rem)]" id="hero-title">Made with care.<br /><em>Made better.</em></h1>
+          <h1 className="mb-6 text-[clamp(3.55rem,14vw,5.3rem)] leading-[0.94] tracking-[-0.055em] md:text-[clamp(3.6rem,8vw,5.3rem)] lg:text-[clamp(3.8rem,7vw,6.35rem)]" id="hero-title">Made with care.<br /><em>Made better.</em></h1>
           <p className="hero-intro">
             I’m Šarūnas, a junior front-end developer who likes getting the details right. I build
             clear, responsive interfaces with React, TypeScript, and JavaScript—and keep refining
@@ -123,29 +123,26 @@ export default function App() {
               <li>MongoDB</li>
               <li>Vercel</li>
             </ul>
-            <a className="project-link" href="https://github.com/SarunasSimanaitis/MoosclesPro" target="_blank" rel="noreferrer">
-              Explore the source
-            </a>
+            <div className="project-links">
+              <a className="project-link" href="https://mooscles-pro.vercel.app" target="_blank" rel="noreferrer">
+                View the live project
+              </a>
+              <a className="project-link" href="https://github.com/SarunasSimanaitis/MoosclesPro" target="_blank" rel="noreferrer">
+                Explore the source
+              </a>
+            </div>
           </div>
 
-          <div className="workout-loop" aria-label="MoosclesPro’s workout flow">
-            <div className="workout-loop-top">
-              <span>THE TRAINING LOOP</span>
+          <figure className="project-preview">
+            <div className="project-preview-frame">
+              <img
+                src="/moosclespro-preview.png"
+                alt="MoosclesPro landing page, with an active workout preview and a summary of training features"
+                loading="lazy"
+              />
             </div>
-            <div className="workout-step">
-              <span className="step-number">01</span>
-              <div><strong>Plan</strong><small>Routines &amp; programs</small></div>
-            </div>
-            <div className="workout-step">
-              <span className="step-number">02</span>
-              <div><strong>Log</strong><small>Sets, reps &amp; rest</small></div>
-            </div>
-            <div className="workout-step">
-              <span className="step-number">03</span>
-              <div><strong>Review</strong><small>History &amp; progress</small></div>
-            </div>
-            <div className="workout-loop-bottom"><span>ONE SESSION AT A TIME</span><span>BUILD / NOTICE / REPEAT</span></div>
-          </div>
+            <figcaption>MoosclesPro · Workout tracking, routines, and progress</figcaption>
+          </figure>
         </article>
 
         <div className="project-grid mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
