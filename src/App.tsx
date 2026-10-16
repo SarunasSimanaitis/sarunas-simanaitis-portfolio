@@ -31,7 +31,7 @@ export default function App() {
           <a href="#work">Work</a>
           <a href="#approach">Approach</a>
           <a href="#about">About</a>
-          <a className="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+          <a className="nav-contact" href="#contact">Let’s talk</a>
         </nav>
       </div>
     </header>
@@ -47,8 +47,8 @@ export default function App() {
             them until they feel right.
           </p>
           <div className="hero-actions">
-            <a className="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
-            <a className="text-link" href="mailto:sarunassimanaitis@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+            <a className="button button-dark" href="#work">Explore my work</a>
+            <a className="text-link" href="mailto:sarunassimanaitis@gmail.com">Get in touch</a>
           </div>
           <div className="hero-meta" aria-label="Current details">
             <div>
@@ -124,29 +124,25 @@ export default function App() {
               <li>Vercel</li>
             </ul>
             <a className="project-link" href="https://github.com/SarunasSimanaitis/MoosclesPro" target="_blank" rel="noreferrer">
-              Explore the source <span aria-hidden="true">↗</span>
+              Explore the source
             </a>
           </div>
 
           <div className="workout-loop" aria-label="MoosclesPro’s workout flow">
             <div className="workout-loop-top">
               <span>THE TRAINING LOOP</span>
-              <span className="loop-icon" aria-hidden="true">↻</span>
             </div>
             <div className="workout-step">
               <span className="step-number">01</span>
               <div><strong>Plan</strong><small>Routines &amp; programs</small></div>
-              <span className="step-arrow" aria-hidden="true">↗</span>
             </div>
             <div className="workout-step">
               <span className="step-number">02</span>
               <div><strong>Log</strong><small>Sets, reps &amp; rest</small></div>
-              <span className="step-arrow" aria-hidden="true">↗</span>
             </div>
             <div className="workout-step">
               <span className="step-number">03</span>
               <div><strong>Review</strong><small>History &amp; progress</small></div>
-              <span className="step-arrow" aria-hidden="true">↗</span>
             </div>
             <div className="workout-loop-bottom"><span>ONE SESSION AT A TIME</span><span>BUILD / NOTICE / REPEAT</span></div>
           </div>
@@ -168,7 +164,7 @@ export default function App() {
               <li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li>
             </ul>
             <a className="project-link" href="https://github.com/SarunasSimanaitis/Finans-program-l-projektas" target="_blank" rel="noreferrer">
-              View repository <span aria-hidden="true">↗</span>
+              View repository
             </a>
           </article>
 
@@ -187,7 +183,7 @@ export default function App() {
               <li>React</li><li>JavaScript</li><li>Express</li><li>MongoDB</li>
             </ul>
             <a className="project-link" href="https://github.com/SarunasSimanaitis/Student-Registration-System" target="_blank" rel="noreferrer">
-              View repository <span aria-hidden="true">↗</span>
+              View repository
             </a>
           </article>
         </div>
@@ -205,7 +201,7 @@ export default function App() {
               <p>At TechIn, I turned Figma designs into responsive React interfaces, worked from Jira user stories, and collaborated with front-end and back-end developers during sprints.</p>
               <p>I’m early in my career, so I ask questions, take feedback seriously, and stay curious about the parts I don’t know yet. I want to grow into someone people trust with the hard, careful work.</p>
             </div>
-            <div className="approach-note"><span className="note-mark" aria-hidden="true">↳</span><span>Notice what’s off. Find out why. Improve it with care.</span></div>
+            <div className="approach-note"><span>Notice what’s off. Find out why. Improve it with care.</span></div>
           </div>
         </div>
       </section>
@@ -220,7 +216,7 @@ export default function App() {
           <p>Outside the code, I like learning how things fit together. Inside it, I care about readable structure, responsive behavior, and the small choices that make a product easier to use.</p>
           <div className="about-details">
             <div><span className="meta-label">Languages</span><span>English · Lithuanian · Russian · Croatian</span></div>
-            <div><span className="meta-label">Elsewhere</span><a href="https://github.com/SarunasSimanaitis" target="_blank" rel="noreferrer">GitHub profile <span aria-hidden="true">↗</span></a></div>
+            <div><span className="meta-label">Elsewhere</span><a href="https://github.com/SarunasSimanaitis" target="_blank" rel="noreferrer">GitHub profile</a></div>
           </div>
         </div>
       </section>
@@ -233,7 +229,7 @@ export default function App() {
           </div>
           <div className="contact-copy">
             <p>I’m looking for a junior front-end role where I can contribute, keep learning, and do careful work with good people.</p>
-            <a className="contact-email" href="mailto:sarunassimanaitis@gmail.com">sarunassimanaitis@gmail.com <span aria-hidden="true">↗</span></a>
+            <a className="contact-email" href="mailto:sarunassimanaitis@gmail.com">sarunassimanaitis@gmail.com</a>
             <span className="contact-location"><span className="status-dot" aria-hidden="true"></span> Based in Rybnik, Poland · Open to opportunities</span>
           </div>
         </div>
@@ -244,7 +240,7 @@ export default function App() {
       <div className="footer-inner">
         <a className="footer-brand" href="#top">Š<span>.</span> <span>Thoughtful work, in progress.</span></a>
         <p>Designed and built by Šarūnas Simanaitis · 2026</p>
-        <a href="#top" className="back-to-top">Back to top ↑</a>
+        <a href="#top" className="back-to-top">Back to top</a>
       </div>
     </footer>
     </>
