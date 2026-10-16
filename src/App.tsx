@@ -6,9 +6,9 @@ export default function App() {
 
   return (
     <>
-    <a className="skip-link" href="#main">Skip to content</a>
+    <a className="skip-link fixed left-3 top-3 z-20 -translate-y-[150%] bg-forest-deep px-4 py-3 text-white transition-transform focus:translate-y-0" href="#main">Skip to content</a>
 
-    <header className="site-header" onKeyDown={(event) => { if (event.key === "Escape" && menuOpen) { setMenuOpen(false); menuButtonRef.current?.focus(); } }}>
+    <header className="site-header sticky top-0 z-10 border-b border-ink/10 bg-paper/95 backdrop-blur-md" onKeyDown={(event) => { if (event.key === "Escape" && menuOpen) { setMenuOpen(false); menuButtonRef.current?.focus(); } }}>
       <div className="header-inner">
         <a className="brand" href="#top" aria-label="Šarūnas Simanaitis, home">
           <span className="brand-mark" aria-hidden="true">Š</span>
@@ -37,10 +37,10 @@ export default function App() {
     </header>
 
     <main id="main">
-      <section id="top" className="hero section-wrap" aria-labelledby="hero-title">
+      <section id="top" className="hero section-wrap grid grid-cols-1 items-center gap-12 py-[4.2rem] lg:min-h-[680px] lg:grid-cols-[minmax(0,1.08fr)_minmax(360px,0.92fr)] lg:gap-[clamp(2.5rem,7vw,6.5rem)] lg:py-24 lg:pb-[6.2rem]" aria-labelledby="hero-title">
         <div className="hero-copy">
           <p className="eyebrow"><span className="eyebrow-index">01</span> Front-end developer <span className="eyebrow-dot">/</span> Rybnik, Poland</p>
-          <h1 id="hero-title">Made with care.<br /><em>Made better.</em></h1>
+          <h1 className="mb-6 font-serif text-[clamp(3.55rem,14vw,5.3rem)] font-normal leading-[0.94] tracking-[-0.055em] md:text-[clamp(3.6rem,8vw,5.3rem)] lg:text-[clamp(3.8rem,7vw,6.35rem)]" id="hero-title">Made with care.<br /><em>Made better.</em></h1>
           <p className="hero-intro">
             I’m Šarūnas, a junior front-end developer who likes getting the details right. I build
             clear, responsive interfaces with React, TypeScript, and JavaScript—and keep refining
@@ -91,18 +91,18 @@ export default function App() {
         </aside>
       </section>
 
-      <section className="experience-strip" aria-label="Experience and education">
-        <div className="experience-inner">
-          <p><span className="strip-label">RECENTLY</span><span>Front-End Developer Intern <span className="strip-muted">at TechIn</span></span></p>
+      <section className="experience-strip border-y border-line bg-white/20" aria-label="Experience and education">
+        <div className="experience-inner grid grid-cols-1 gap-0 py-2 md:flex md:min-h-[104px] md:items-center md:justify-between md:gap-6 md:py-0">
+          <p className="grid grid-cols-[96px_1fr] items-baseline gap-[0.6rem] border-b border-line py-[0.9rem] md:grid-cols-1 md:gap-[0.35rem] md:border-0 md:py-0"><span className="strip-label">RECENTLY</span><span>Front-End Developer Intern <span className="strip-muted">at TechIn</span></span></p>
           <span className="strip-divider" aria-hidden="true"></span>
-          <p><span className="strip-label">EDUCATION</span><span>JavaScript Developer <span className="strip-muted">at KITM</span></span></p>
+          <p className="grid grid-cols-[96px_1fr] items-baseline gap-[0.6rem] border-b border-line py-[0.9rem] md:grid-cols-1 md:gap-[0.35rem] md:border-0 md:py-0"><span className="strip-label">EDUCATION</span><span>JavaScript Developer <span className="strip-muted">at KITM</span></span></p>
           <span className="strip-divider" aria-hidden="true"></span>
-          <p><span className="strip-label">GROUNDING</span><span>Clear interfaces <span className="strip-muted">and thoughtful teamwork</span></span></p>
+          <p className="grid grid-cols-[96px_1fr] items-baseline gap-[0.6rem] py-[0.9rem] md:grid-cols-1 md:gap-[0.35rem] md:py-0"><span className="strip-label">GROUNDING</span><span>Clear interfaces <span className="strip-muted">and thoughtful teamwork</span></span></p>
         </div>
       </section>
 
-      <section id="work" className="work-section section-wrap" aria-labelledby="work-title">
-        <div className="section-heading">
+      <section id="work" className="work-section section-wrap py-[5.6rem] lg:py-[8.3rem] lg:pb-32" aria-labelledby="work-title">
+        <div className="section-heading block lg:flex lg:items-end lg:justify-between lg:gap-12">
           <div>
             <p className="eyebrow"><span className="eyebrow-index">02</span> Selected work</p>
             <h2 id="work-title">Useful things,<br /><em>thoughtfully built.</em></h2>
@@ -110,7 +110,7 @@ export default function App() {
           <p className="section-intro">A mix of independent product work and full-stack projects. Each one taught me something worth carrying forward.</p>
         </div>
 
-        <article className="featured-project">
+        <article className="featured-project grid grid-cols-1 gap-8 p-6 lg:grid-cols-[minmax(0,1fr)_minmax(340px,0.85fr)] lg:gap-[clamp(2rem,6vw,5.3rem)] lg:p-[clamp(2rem,4vw,3.7rem)]">
           <div className="featured-copy">
             <div className="project-kicker"><span>INDEPENDENT PROJECT</span><span>2026 — NOW</span></div>
             <h3>Mooscles<span>Pro</span></h3>
@@ -152,7 +152,7 @@ export default function App() {
           </div>
         </article>
 
-        <div className="project-grid">
+        <div className="project-grid mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
           <article className="project-card project-card-amber">
             <div className="card-topline"><span>FULL-STACK PROJECT</span><span>02</span></div>
             <div className="project-art art-finance" aria-hidden="true">
@@ -193,8 +193,8 @@ export default function App() {
         </div>
       </section>
 
-      <section id="approach" className="approach-section" aria-labelledby="approach-title">
-        <div className="section-wrap approach-inner">
+      <section id="approach" className="approach-section bg-forest-deep text-paper-bright" aria-labelledby="approach-title">
+        <div className="section-wrap approach-inner grid grid-cols-1 gap-4 py-[5.7rem] md:grid-cols-[0.8fr_1.2fr] md:gap-[clamp(3rem,10vw,9rem)] md:py-[7.4rem]">
           <div className="approach-heading">
             <p className="eyebrow eyebrow-light"><span className="eyebrow-index">03</span> How I work</p>
             <h2 id="approach-title">I stay with<br />the problem.</h2>
@@ -210,7 +210,7 @@ export default function App() {
         </div>
       </section>
 
-      <section id="about" className="about-section section-wrap" aria-labelledby="about-title">
+      <section id="about" className="about-section section-wrap grid grid-cols-1 gap-6 py-[5.7rem] md:grid-cols-[0.9fr_1.1fr] md:gap-[clamp(3rem,9vw,8.5rem)] md:py-[8.4rem]" aria-labelledby="about-title">
         <div className="about-title-block">
           <p className="eyebrow"><span className="eyebrow-index">04</span> A little context</p>
           <h2 id="about-title">Steady work.<br /><em>Open mind.</em></h2>
@@ -225,8 +225,8 @@ export default function App() {
         </div>
       </section>
 
-      <section id="contact" className="contact-section" aria-labelledby="contact-title">
-        <div className="section-wrap contact-inner">
+      <section id="contact" className="contact-section bg-clay text-white" aria-labelledby="contact-title">
+        <div className="section-wrap contact-inner grid grid-cols-1 items-center gap-5 py-[5.5rem] md:grid-cols-[1fr_0.8fr] md:gap-16 md:py-[6.6rem]">
           <div>
             <p className="eyebrow eyebrow-light"><span className="eyebrow-index">05</span> Next chapter</p>
             <h2 id="contact-title">Let’s make<br /><em>something matter.</em></h2>
