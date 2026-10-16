@@ -110,7 +110,7 @@ export default function App() {
           <p className="section-intro">A mix of independent product work and full-stack projects. Each one taught me something worth carrying forward.</p>
         </div>
 
-        <article className="featured-project grid grid-cols-1 gap-8 p-6 lg:grid-cols-[minmax(0,1fr)_minmax(340px,0.85fr)] lg:gap-[clamp(2rem,6vw,5.3rem)] lg:p-[clamp(2rem,4vw,3.7rem)]">
+        <article className="featured-project grid grid-cols-1 p-6 lg:p-[clamp(2rem,4vw,3.7rem)]">
           <div className="featured-copy">
             <div className="project-kicker"><span>INDEPENDENT PROJECT</span><span>2026 — NOW</span></div>
             <h3>Mooscles<span>Pro</span></h3>
@@ -133,16 +133,6 @@ export default function App() {
             </div>
           </div>
 
-          <figure className="project-preview">
-            <div className="project-preview-frame">
-              <img
-                src="/moosclespro-preview.png"
-                alt="MoosclesPro landing page, with an active workout preview and a summary of training features"
-                loading="lazy"
-              />
-            </div>
-            <figcaption>MoosclesPro · Workout tracking, routines, and progress</figcaption>
-          </figure>
         </article>
 
         <div className="project-grid mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
