@@ -1,6 +1,15 @@
 # Šarūnas Simanaitis — Portfolio
 
-A personal portfolio built with React, TypeScript, Vite, and Tailwind CSS v4. The site presents selected projects, working approach, background, and contact details.
+My front-end development portfolio. It introduces my background and features selected projects, including [MoosclesPro](https://github.com/SarunasSimanaitis/MoosclesPro).
+
+[View the live site](https://sarunas-simanaitis-portfolio.vercel.app/)
+
+## Built with
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS v4
 
 ## Run locally
 
@@ -9,11 +18,15 @@ pnpm install
 pnpm dev
 ```
 
-## Production build
+## Build and preview
 
 ```sh
 pnpm build
 pnpm preview
 ```
 
-The production site is deployed at [sarunas-simanaitis-portfolio.vercel.app](https://sarunas-simanaitis-portfolio.vercel.app).
+## Project files
+
+- `src/App.tsx` — page content and sections
+- `src/styles.css` — Tailwind entry, theme tokens, and custom styles
+- `public/` — static assets
