@@ -1,6 +1,6 @@
 # Šarūnas Simanaitis — Portfolio
 
-My front-end development portfolio. It introduces my background and features selected projects, including [MoosclesPro](https://github.com/SarunasSimanaitis/MoosclesPro).
+My front-end development portfolio. It introduces my background and features selected projects, including [MoosclesPro](https://github.com/SarunasSimanaitis/MoosclesPro) and [Frictionless Notes](https://github.com/SarunasSimanaitis/frictionless-notes), an offline-first mobile notes app built with React Native, Expo, TypeScript and SQLite.
 
 [View the live site](https://sarunas-simanaitis-portfolio.vercel.app/)
 
