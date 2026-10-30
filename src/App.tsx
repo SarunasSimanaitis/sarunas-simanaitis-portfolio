@@ -45,7 +45,7 @@ export default function App() {
               </h1>
 
               <p className="mt-7 max-w-xl text-lg leading-relaxed text-slate-300 sm:text-xl">
-                I build responsive web apps with React and TypeScript.
+                I build responsive web and mobile apps with React, TypeScript and React Native.
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -70,9 +70,9 @@ export default function App() {
 
               <pre className="overflow-x-auto px-5 py-6 font-mono text-sm leading-8 sm:px-6 sm:text-base"><code><span className="text-violet-300">const</span>{" stack = {"}<br />
                 {"  "}<span className="text-sky-300">frontend</span>: ["React", "TypeScript"],<br />
-                {"  "}<span className="text-sky-300">styling</span>: "Tailwind CSS",<br />
+                {"  "}<span className="text-sky-300">mobile</span>: ["React Native", "Expo"],<br />
+                {"  "}<span className="text-sky-300">data</span>: ["SQLite", "MongoDB"],<br />
                 {"  "}<span className="text-sky-300">tools</span>: ["Git", "Vercel"],<br />
-                {"  "}<span className="text-sky-300">focus</span>: "responsive UI",<br />
                 {"};"}
               </code></pre>
 
@@ -130,6 +130,41 @@ export default function App() {
                 <div className="rounded-lg bg-white/5 p-3 sm:p-4">
                   <dt className="font-mono text-[0.65rem] uppercase tracking-wider text-slate-400 sm:text-xs">Review</dt>
                   <dd className="mt-2 text-sm font-semibold text-white sm:text-base">Progress</dd>
+                </div>
+              </dl>
+            </article>
+
+            <article className="mt-6 grid gap-8 rounded-xl border border-line bg-white p-6 text-ink sm:p-9 lg:grid-cols-[1fr_0.72fr] lg:items-center lg:p-11">
+              <div>
+                <p className="font-mono text-xs font-medium uppercase tracking-[0.12em] text-brand">02 / Mobile application</p>
+                <h3 className="mt-4 text-4xl font-semibold tracking-[-0.05em] sm:text-5xl">Frictionless Notes</h3>
+                <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted">
+                  An offline-first notes app built around quick notes, compact checklists and practical everyday organisation.
+                </p>
+                <ul aria-label="Frictionless Notes technologies" className="mt-6 flex flex-wrap gap-2">
+                  <li className="rounded border border-line px-3 py-1.5 font-mono text-xs text-muted">React Native</li>
+                  <li className="rounded border border-line px-3 py-1.5 font-mono text-xs text-muted">Expo</li>
+                  <li className="rounded border border-line px-3 py-1.5 font-mono text-xs text-muted">TypeScript</li>
+                  <li className="rounded border border-line px-3 py-1.5 font-mono text-xs text-muted">SQLite</li>
+                </ul>
+                <div className="mt-7 flex flex-wrap gap-3">
+                  <a className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand px-4 py-2.5 font-semibold text-white transition-colors hover:bg-blue-500" href="https://github.com/SarunasSimanaitis/frictionless-notes" rel="noreferrer" target="_blank">
+                    Source code
+                  </a>
+                </div>
+              </div>
+              <dl className="grid grid-cols-3 gap-3 border-t border-line pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
+                <div className="rounded-lg bg-paper p-3 sm:p-4">
+                  <dt className="font-mono text-[0.65rem] uppercase tracking-wider text-muted sm:text-xs">Storage</dt>
+                  <dd className="mt-2 text-sm font-semibold text-ink sm:text-base">Offline</dd>
+                </div>
+                <div className="rounded-lg bg-paper p-3 sm:p-4">
+                  <dt className="font-mono text-[0.65rem] uppercase tracking-wider text-muted sm:text-xs">Lists</dt>
+                  <dd className="mt-2 text-sm font-semibold text-ink sm:text-base">Interactive</dd>
+                </div>
+                <div className="rounded-lg bg-paper p-3 sm:p-4">
+                  <dt className="font-mono text-[0.65rem] uppercase tracking-wider text-muted sm:text-xs">Platform</dt>
+                  <dd className="mt-2 text-sm font-semibold text-ink sm:text-base">Android</dd>
                 </div>
               </dl>
             </article>
